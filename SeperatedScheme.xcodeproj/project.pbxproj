@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F263CF52120952E00DC2567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFD091F20C984420020EFB4 /* Assets.xcassets */; };
 		FC7FC92120CC46210019FE9B /* SeperatedScheme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCFD091C20C984400020EFB4 /* SeperatedScheme.xcdatamodeld */; };
 		FC7FC92320CC46210019FE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD096020C98D400020EFB4 /* ViewController.swift */; };
 		FC7FC92420CC46210019FE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD091520C984400020EFB4 /* AppDelegate.swift */; };
@@ -14,7 +15,6 @@
 		FC7FC92820CC46210019FE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFD092120C984420020EFB4 /* LaunchScreen.storyboard */; };
 		FC7FC92A20CC46210019FE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFD091920C984400020EFB4 /* Main.storyboard */; };
 		FC7FC93020CC46310019FE9B /* ViewController+SchemeB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD096920C997830020EFB4 /* ViewController+SchemeB.swift */; };
-		FC7FC93120CC4A180019FE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFD091F20C984420020EFB4 /* Assets.xcassets */; };
 		FCFD091620C984400020EFB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD091520C984400020EFB4 /* AppDelegate.swift */; };
 		FCFD091B20C984400020EFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFD091920C984400020EFB4 /* Main.storyboard */; };
 		FCFD091E20C984400020EFB4 /* SeperatedScheme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCFD091C20C984400020EFB4 /* SeperatedScheme.xcdatamodeld */; };
@@ -262,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7FC92820CC46210019FE9B /* LaunchScreen.storyboard in Resources */,
+				3F263CF52120952E00DC2567 /* Assets.xcassets in Resources */,
 				FC7FC92A20CC46210019FE9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +272,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCFD092320C984420020EFB4 /* LaunchScreen.storyboard in Resources */,
-				FC7FC93120CC4A180019FE9B /* Assets.xcassets in Resources */,
 				FCFD091B20C984400020EFB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
