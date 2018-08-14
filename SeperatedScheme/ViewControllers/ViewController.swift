@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet private weak var formulaScheme: UILabel!
+    @IBOutlet private weak var resultmacro: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,13 +23,12 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
 
         displayMonster()
+        formulaScheme.text = String(Formula().caculate(first: 2, second: 4))
+        resultmacro.text = MacroFormula().result
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    // MARK: SchemeViewControllerProtocol
-
 }

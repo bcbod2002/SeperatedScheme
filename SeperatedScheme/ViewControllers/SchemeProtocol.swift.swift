@@ -13,3 +13,10 @@ protocol SchemeProtocol {
 
     func displayMonster()
 }
+
+protocol FormulaSchemeProtocol {
+    var result: Int? { get }
+    
+    func caculate(first: Int, second: Int) -> Int
+}
+  
