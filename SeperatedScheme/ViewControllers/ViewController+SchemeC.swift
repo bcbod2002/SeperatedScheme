@@ -1,5 +1,5 @@
 //
-//  ViewController+SchemeC .swift
+//  ViewController+SchemeC.swift
 //  SchemeC
 //
 //  Created by GostonHac on 2018/8/13.

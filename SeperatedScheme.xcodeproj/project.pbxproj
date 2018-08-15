@@ -25,7 +25,7 @@
 		3F263D0D212097B100DC2567 /* SchemeProtocol.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD096420C98DFC0020EFB4 /* SchemeProtocol.swift.swift */; };
 		3F263D10212097B100DC2567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFD092120C984420020EFB4 /* LaunchScreen.storyboard */; };
 		3F263D12212097B100DC2567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFD091920C984400020EFB4 /* Main.storyboard */; };
-		3F263D1B2120995C00DC2567 /* ViewController+SchemeC .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F263D1A2120995C00DC2567 /* ViewController+SchemeC .swift */; };
+		3F263D1B2120995C00DC2567 /* ViewController+SchemeC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F263D1A2120995C00DC2567 /* ViewController+SchemeC.swift */; };
 		3F263D1E21209A0300DC2567 /* ViewController+SchemeB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD096920C997830020EFB4 /* ViewController+SchemeB.swift */; };
 		3F263D2221209AB100DC2567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFD091F20C984420020EFB4 /* Assets.xcassets */; };
 		3F263D2321209ABB00DC2567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFD091F20C984420020EFB4 /* Assets.xcassets */; };
@@ -65,7 +65,7 @@
 		3F0F36672123372D00BA217A /* SchemeB-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SchemeB-Info.plist"; sourceTree = "<group>"; };
 		3F0F366A2123374700BA217A /* SchemeC-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SchemeC-Info.plist"; sourceTree = "<group>"; };
 		3F263D16212097B100DC2567 /* SchemeC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchemeC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F263D1A2120995C00DC2567 /* ViewController+SchemeC .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SchemeC .swift"; sourceTree = "<group>"; };
+		3F263D1A2120995C00DC2567 /* ViewController+SchemeC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SchemeC.swift"; sourceTree = "<group>"; };
 		FC7FC92E20CC46210019FE9B /* SchemeB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchemeB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFD091220C984400020EFB4 /* SchemeA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchemeA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFD091520C984400020EFB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -197,7 +197,7 @@
 				FCFD096020C98D400020EFB4 /* ViewController.swift */,
 				FCFD096720C997730020EFB4 /* ViewController+SchemeA.swift */,
 				FCFD096920C997830020EFB4 /* ViewController+SchemeB.swift */,
-				3F263D1A2120995C00DC2567 /* ViewController+SchemeC .swift */,
+				3F263D1A2120995C00DC2567 /* ViewController+SchemeC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -397,7 +397,7 @@
 				3F0F365B21232CAA00BA217A /* Formula.swift in Sources */,
 				3F263D0B212097B100DC2567 /* AppDelegate.swift in Sources */,
 				3F0F36662123332300BA217A /* MacroFormula.swift in Sources */,
-				3F263D1B2120995C00DC2567 /* ViewController+SchemeC .swift in Sources */,
+				3F263D1B2120995C00DC2567 /* ViewController+SchemeC.swift in Sources */,
 				3F263D0D212097B100DC2567 /* SchemeProtocol.swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
