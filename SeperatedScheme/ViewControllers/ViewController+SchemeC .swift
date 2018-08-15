@@ -15,7 +15,7 @@ extension ViewController: SchemeProtocol {
     
     func displayMonster() {
         let imageView = UIImageView(frame: CGRect(x: 100, y: 100, width: 200, height: 200))
-        imageView.image = #imageLiteral(resourceName: "Lugia")
+        imageView.image = #imageLiteral(resourceName: "LEAF")
         view.addSubview(imageView)
     }
 }

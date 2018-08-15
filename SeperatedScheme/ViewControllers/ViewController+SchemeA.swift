@@ -15,7 +15,7 @@ extension ViewController: SchemeProtocol {
 
     func displayMonster() {
         let imageView = UIImageView(frame: CGRect(x: 100, y: 100, width: 200, height: 200))
-        imageView.image = #imageLiteral(resourceName: "Pikachu")
+        imageView.image = #imageLiteral(resourceName: "SPROUT")
         view.addSubview(imageView)
     }
 }
